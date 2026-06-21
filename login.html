@@ -3,7 +3,7 @@
     <head>
         <title>simple login form</title>
 
-        <style>
+       <!--<style>
             body{
                 margin: 0;
                 padding: 0;
@@ -67,9 +67,9 @@
                 <input type="password" class="user_data"
                 placeholder="password"/>
 
-                <button class="btn">login</button>
+                <button class="btn">login</button>-->
 
-                <input type="email" id="email" placeholder="Email">
+                <!--<input type="email" id="email" placeholder="Email">
 
 <input type="password" id="password" placeholder="Password">
 
@@ -79,8 +79,41 @@
 
 <button id="signup-btn">
     Create Account
+</button>-->
+<!--<input type="tel" id="phone" placeholder="+91 9876543210">
+
+<button onclick="sendOTP()">Send OTP</button>
+
+<input type="text" id="otp" placeholder="Enter OTP">
+
+<button onclick="verifyOTP()">Verify OTP</button>
+<script src="script.js"></script>-->
+<input 
+ type="tel"
+ id="phone"
+ placeholder="+91 9876543210">
+
+
+<button onclick="sendOTP()">
+ Send OTP
 </button>
 
+
+<input 
+ type="text"
+ id="otp"
+ placeholder="Enter OTP">
+
+
+<button onclick="verifyOTP()">
+ Verify OTP
+</button>
+
+
+<div id="recaptcha-container"></div>
+
+
+<script type="module" src="script.js"></script>
             </form>
 
         </div>
